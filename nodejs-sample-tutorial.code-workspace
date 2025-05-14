@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Vesper light",
+    "editor.fontFamily": "Cascadia Mono"
+  }
+}

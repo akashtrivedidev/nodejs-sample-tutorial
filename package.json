@@ -1,0 +1,38 @@
+{
+  "name": "node-tasker",
+  "version": "1.0.0",
+  "description": "A beginner-friendly task management API to learn Node.js concepts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "api",
+    "beginner",
+    "tutorial"
+  ],
+  "type": "commonjs",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "chalk": "^4.1.2",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "express-api-cli": "^0.0.7",
+    "nodemon": "^2.0.22",
+    "ts-migrate": "^0.1.35",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
